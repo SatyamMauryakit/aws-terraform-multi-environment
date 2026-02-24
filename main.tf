@@ -1,3 +1,4 @@
+# this is for the development environment
 module "dev-infra" {
     source = "./infra-app"
     env = "dev"
@@ -10,6 +11,8 @@ module "dev-infra" {
   
 }
 
+# this is for the production environment
+
 module "prd-infra" {
     source = "./infra-app"
     env = "prd"
@@ -21,6 +24,7 @@ module "prd-infra" {
 
   
 }
+# this is for the staging environment
 
 module "stg-infra" {
     source = "./infra-app"
