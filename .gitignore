@@ -1,0 +1,18 @@
+.terra-key-ec2.pem
+.terra-key-ec2.pem.pub
+.terra-key-ec2
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash log files
+crash.log
+crash-*.log
+
+
+# Ignore override files as they are usually used to override resources locally and should not be shared
+override.tf
+override.tf.json
+# Include override files you do wish to add to version control using negated pattern
+!override-example.tf
